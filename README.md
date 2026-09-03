@@ -99,15 +99,3 @@
     <img src="https://raw.githubusercontent.com/huntedraven7/huntedraven7/output/snake.svg" alt="Snake Game" width="600"/>
   </p>
 </div>
-
-<div align="center">
-  <h3>🤝 Connect with me</h3>
-  <a href="https://github.com/huntedraven7">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</div>
-
-<div align="center">
-  <br />
-  <sub>Built with ❤️ by HuntedRaven7</sub>
-</div>
