@@ -1,0 +1,38 @@
+name: Generate Snake Game
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate Snake Game
+        uses: Platane/snk@v3
+        with:
+          github_user_name: huntedraven7
+          outputs: |
+            output/snake.svg
+            output/snake-dark.svg?palette=github-dark
+
+      - name: Upload Snake SVG
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-svg
+          path: output/*.svg
+
+      - name: Commit and Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output/snake.svg output/snake-dark.svg
+          git diff --staged --quiet || git commit -m "chore: update snake game animation"
+          git push
