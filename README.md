@@ -33,12 +33,6 @@
 <br />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/huntedraven7/huntedraven7/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
-</div>
-
-<br />
-
-<div align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,html,css,git,github,vscode,linux,docker,figma&theme=dark&perline=8" alt="Skills" />
   </a>
@@ -104,12 +98,6 @@
   <p>
     <img src="https://raw.githubusercontent.com/huntedraven7/huntedraven7/output/snake.svg" alt="Snake Game" width="600"/>
   </p>
-</div>
-
-<div align="center">
-  <br />
-  <img src="https://raw.githubusercontent.com/huntedraven7/huntedraven7/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
-  <br />
 </div>
 
 <div align="center">
